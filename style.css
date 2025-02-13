@@ -1,0 +1,74 @@
+*{box-sizing: border-box;}
+       
+        body{
+        margin: 0;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #95d3f0;
+        }
+       
+        .topo{
+           background-color: #e3e4e6;
+            padding: 20px;
+           text-align: center;
+        }
+   
+        .menu{
+            background-color: #3c3c3c;
+            overflow: hidden;
+            padding: 16px;
+            text-align: center;
+        }
+   
+        .menu a{
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            text-decoration: none;
+            display: inline;
+        }
+
+        .centralizar{
+            width: 900px; 
+            margin: 0 auto; 
+            padding: 20px;
+            text-align: center;
+            font-size: 17px;
+        }
+
+        .artistas{
+            font-family: "Poppins", sans-serif;
+            color: black;
+        }
+
+        .caixa{
+            background-color: #c4fafc;
+            border-radius: 50px;
+            padding: 27px;
+            text-align: justify;
+        }
+
+        .borda{
+            border-radius: 30px;
+            width: 250px;
+        }
+
+        .titulo2{
+            text-align: center;
+        }
+
+        .paragrafo{
+            font-size: 19px;
+        }
+
+        .footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 7px 5px;
+            color: rgb(0, 0, 0);
+            bottom: 0;
+            width: 100%;
+        }
+
+        .contact, .copyright{
+            font-size: 14px;
+        }
